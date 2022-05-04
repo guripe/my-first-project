@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="control.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <div class="inputs">
+            <input type="text" name="description" value="">
+            <input type="number" name="price" value="">
+            <input type="date" name="dueDate" value="">
+        </div>
+        <div class="button">
+            <button onclick="button()" id="button">+</button> <!-- nao precisa puxar o botao com DOM -->
+        </div>
+    </div>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>conta</th>
+                <th>preço</th>
+                <th>status</th>
+                <th>vencimento</th>
+            </tr>
+        </thead>
+        <tbody>
+<!--        <tr>
+                <td>Aluguel</td>
+                <td>R$ 0</td>
+                <td>status</td>
+                <td>00/00/0000</td>
+            </tr> -->
+        </tbody>
+    </table>
+
+</body>
+</html>
