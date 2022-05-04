@@ -31,5 +31,3 @@ function button(){
 
 list = JSON.parse(localStorage.getItem("content")) || []
 tableRender()
-
-/* lkdvldhvlujaçv */

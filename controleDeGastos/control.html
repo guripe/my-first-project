@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="control.js" defer></script>
+    <script src="./control.js" defer></script>
+    <link rel="stylesheet" href="./control.css">
 </head>
 <body>
     <div class="header">
         <div class="inputs">
-            <input type="text" name="description" value="">
-            <input type="number" name="price" value="">
-            <input type="date" name="dueDate" value="">
+            <input type="text" name="description" value="" placeholder="conta">
+            <input type="number" name="price" value="" placeholder="valor">
+            <input type="date" name="dueDate" value="" placeholder="vencimento">
         </div>
         <div class="button">
             <button onclick="button()" id="button">+</button> <!-- nao precisa puxar o botao com DOM -->
@@ -29,12 +30,6 @@
             </tr>
         </thead>
         <tbody>
-<!--        <tr>
-                <td>Aluguel</td>
-                <td>R$ 0</td>
-                <td>status</td>
-                <td>00/00/0000</td>
-            </tr> -->
         </tbody>
     </table>
 

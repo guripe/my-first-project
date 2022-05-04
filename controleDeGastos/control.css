@@ -1,0 +1,12 @@
+*, *::before, *::after {
+    color: yellow;
+    font-family: sans-serif;
+}
+
+input, button {
+    color: grey;
+}
+
+body {
+    background-image: linear-gradient(76deg, purple, blue);
+}
